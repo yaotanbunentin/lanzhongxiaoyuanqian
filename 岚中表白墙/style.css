@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+}
+
+body{
+    background-color:#121926;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head-logo{
+    font-size: 2rem;
+    color: #c0262a;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding:20px 75px ;
+}
+
+.head-logo span{
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding:20px 75px ;
+}
+
+.nav-items{
+    font-size:1.2rem ;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+    transition: 0.16s;
+    letter-spacing: 1px;
+}
+
+.nav-items:hover{
+    color: #c0262a;
+}
+
+nav button{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+    transition: 0.16s;
+    letter-spacing: 1px;
+    background-color: #c0262a;
+    height: 40px;
+    width: 250px;
+    border-radius: 50px;
+}
+
+nav button:hover{
+    background-color: transparent;
+    letter-spacing: 5px;
+    color: #c0262a;
+}
+.content img{
+    width: 32%;
+    float: right;
+    position: relative;
+    right: 0px;
+    bottom: 20px;
+}
+.content .ing{
+    width: 15%;
+    position: relative;
+    top: 250px;
+    right: 15px;
+    border-radius: 20px;
+}
+.content .ibg{
+    width: 15%;
+    position: relative;
+    top: 100px;
+    left: 200px;
+    border-radius: 20px;
+}
+
+.left-content{
+    width: 60%;
+    margin-left: 75px;
+}
+
+.left-content h2{
+    font-size: 1.8rem;
+    color: #c0262a;
+    letter-spacing: 2px;
+}
+
+.left-content h1{
+    font-size: 8rem;
+    font-weight:800 ;
+    letter-spacing: 3px;
+    color: white;
+    padding: 10px 0px;
+}
+.left-content p{
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(206, 206, 206);
+    letter-spacing: 1px;
+    line-height: 1.6;
+    width: 75%;
+    padding-bottom: 30px;
+}
+.left-content button{
+    font-size: 1.2rem;
+    color: #c0262a;
+    font-weight: 600;
+    letter-spacing: 2px;
+    background-color: transparent;
+    border: 1px solid #c0262a;
+    height: 50px;
+    width: 270px;
+    border-radius: 50px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    transition: 0.16s;
+}
+
+.left-content button:hover{
+    background-color: #c0262a;
+    color: white;
+    letter-spacing: 5px;
+}
